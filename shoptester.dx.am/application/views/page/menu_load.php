@@ -1,0 +1,1 @@
+<?php foreach($menulist as $key=>$value){$opsi = array();foreach($value as $key2=>$value2){$nilai = "<label class='checkbox-inline'><input type='checkbox' name='".cetak($key)."[]' value='".cetak($key2)."'>".cetak($key2)."</label>";$opsi[]=$nilai;}echo "<tr><td>".cetak($key)."</td><td>".implode(' ',$opsi)."</td></tr>";} ?>
